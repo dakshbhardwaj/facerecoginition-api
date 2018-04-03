@@ -1,0 +1,20 @@
+{
+  "name": "facerecoginition-api",
+  "version": "1.0.0",
+  "description": "For the Backend Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "modemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "clarifai": "^2.6.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.14.4",
+    "pg": "^7.4.1"
+  }
+}
